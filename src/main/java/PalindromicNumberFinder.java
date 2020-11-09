@@ -25,7 +25,7 @@ public class PalindromicNumberFinder {
           palo = 1;
         }
       }
-      return palo;
+      return palo - num;
   }
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome. 72928
